@@ -14,4 +14,4 @@ This solution consists of the following steps:
 5. Create a histogram from brightness values of thos pixels.
 6. Use an ensemble of gradient boosting from LightGBM and sklearn's support vector machine models for classification with histograms as features.
 
-![alt text](https://github.com/VRBarysh/ML-for-car-color-recognition/image.jpg?raw=true)
+![alt text](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/image.jpg?raw=true)
