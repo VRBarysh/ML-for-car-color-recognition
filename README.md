@@ -7,22 +7,22 @@ I've used the following dataset for training and validation of the classifier:
 https://www.kaggle.com/datasets/landrykezebou/vcor-vehicle-color-recognition-dataset
 
 This solution consists of the following steps:
-1. Use a ResNet-based pre-trained model of SSD (Single Shot Detector) architecture from Pytorch to localize cars with bounding boxes.
-2. Use a ResNet-based pre-trained model of a fully convolutional architecture from Pytorch to create a pixel mask.
-3. Use the bounding boxes and the mask to locate pixels that belong to individual cars.
-4. Create a 2D histogram from hue and saturation values of those pixels.
-5. Create a histogram from brightness values of thos pixels.
-6. Use an ensemble of gradient boosting from LightGBM and sklearn's support vector machine models for classification with histograms as features.
+1. Use a ResNet-based pre-trained model of [SSD](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Detection/SSD) (Single Shot Detector) architecture to localize cars with bounding boxes.
+3. Use a ResNet-based pre-trained model of a fully convolutional architecture to create a pixel mask.
+4. Use the bounding boxes and the mask to locate pixels that belong to individual cars.
+5. Create a 2D histogram from hue and saturation values of those pixels.
+6. Create a histogram from brightness values of thos pixels.
+7. Use an ensemble of gradient boosting from LightGBM and sklearn's support vector machine models for classification with histograms as features.
 
 Here are some examples of the resuls:
 
-![alt text](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image01.jpg?raw=true)
-![alt text](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image02.jpg?raw=true)
-![alt text](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image03.jpg?raw=true)
-![alt text](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image04.jpg?raw=true)
-![alt text](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image05.jpg?raw=true)
-![alt text](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image06.jpg?raw=true)
-![alt text](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image07.jpg?raw=true)
-![alt text](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image08.jpg?raw=true)
-![alt text](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image09.jpg?raw=true)
-![alt text](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image10.jpg?raw=true)
+![Example 01](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image01.jpg?raw=true)
+![Example 02](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image02.jpg?raw=true)
+![Example 03](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image03.jpg?raw=true)
+![Example 04](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image04.jpg?raw=true)
+![Example 05](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image05.jpg?raw=true)
+![Example 06](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image06.jpg?raw=true)
+![Example 07](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image07.jpg?raw=true)
+![Example 08](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image08.jpg?raw=true)
+![Example 09](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image09.jpg?raw=true)
+![Example 10](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image10.jpg?raw=true)
