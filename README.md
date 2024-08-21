@@ -11,7 +11,7 @@ This solution consists of the following steps:
 3. Use a ResNet-based pre-trained model of a fully convolutional architecture to create a pixel mask.
 4. Use the bounding boxes and the mask to locate pixels that belong to individual cars.
 5. Create a 2D histogram from hue and saturation values of those pixels.
-6. Create a histogram from brightness values of thos pixels.
+6. Create a histogram from brightness values of those pixels.
 7. Use an ensemble of gradient boosting from LightGBM and sklearn's support vector machine models for classification with histograms as features.
 
 Here are some examples of the resuls:
