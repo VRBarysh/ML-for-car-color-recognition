@@ -24,5 +24,3 @@ Here are some examples of the resuls:
 ![Example 06](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image06.jpg?raw=true)
 ![Example 07](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image07.jpg?raw=true)
 ![Example 08](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image08.jpg?raw=true)
-![Example 09](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image09.jpg?raw=true)
-![Example 10](https://github.com/VRBarysh/ML-for-car-color-recognition/blob/main/examples/image10.jpg?raw=true)
