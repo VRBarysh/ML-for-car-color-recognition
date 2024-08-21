@@ -1,7 +1,7 @@
 # ML-for-car-color-recognition
 Car color regognition model: Single Shot Detector -> Fully convolutional for segmentation -> 2D histogram -> classification
 
-This is my solution of a test task where I had to detect cars and classify them by color on pictures. I've achieved over 90% accuracy over 8 color classes (black, blue, green, grey, orange, red, white, yellow) from the test part of the dataset with almost half of the errors corresponding to wrong or questinable labels. However, my solution has some problems with distinguishing between grey, white and black cars.
+This is my solution of a test task where I had to detect cars and classify them by color on pictures. I've achieved over 90% accuracy over 8 color classes (black, blue, green, grey, orange, red, white, yellow) from the test part of the dataset with almost half of the errors corresponding to wrong or questionable labels. However, my solution has some problems with distinguishing between grey, white and black cars.
 
 I've used the following dataset for training and validation of the classifier: 
 https://www.kaggle.com/datasets/landrykezebou/vcor-vehicle-color-recognition-dataset
